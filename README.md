@@ -1,5 +1,4 @@
-# Electronic_Shopping
-电子商城购买
+# 电子商城购买
 ## 简介：
 这是一个前后端分离的电子商城项目，项目采用Vue-cli和Mybatis+Servlet框架实现的。
 ## 功能：
