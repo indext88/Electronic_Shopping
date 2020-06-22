@@ -1,0 +1,30 @@
+td{
+	text-align:center;
+}
+img{
+	border: 0;
+	width: 80px;
+	height: 80px;
+	background-attachment: fixed;
+}
+input{
+	border: 1px solid #33ccfg;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.checkBoxStyple{
+	border: 1px solid thin;
+	opacity: 0.8;
+}
+.removeImg{
+	width:10px;
+	height:10px;
+}
+.detailAllprice{
+	width:20%;
+	background-color: #789abc;
+}

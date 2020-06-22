@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcarts.dao.UserDao">
+<!--    定义查询显示字段-->
+    <sql id="allUsers">
+        uid,
+        username,
+        password,
+        name,
+        email,
+        telephone,
+        birthday,
+        sex,
+        state,
+        code
+    </sql>
+
+    <sql id="someUsers">
+        uid,
+        username,
+        password
+    </sql>
+    <!--据用户名查找用户-->
+      <select id="findByUserName" parameterType="String" resultType="User">
+          SELECT <include refid="someUsers"/>
+          from user where username=#{username}
+      </select>
+
+
+    <!--添加新用户-->
+    <insert id="save" parameterType="User">
+        INSERT into user(<include refid="allUsers"/>)
+        values(#{uid},#{username},#{password},#{name},#{email},
+        #{telephone},#{birthday},#{sex},#{state},#{code})
+    </insert>
+
+
+    <!--修改用户状态-->
+    <update id="updateState" parameterType="String">
+        UPDATE user set state=1,code=null
+        where code=#{code}
+    </update>
+
+</mapper>

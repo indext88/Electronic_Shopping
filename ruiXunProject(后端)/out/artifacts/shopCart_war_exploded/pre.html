@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>网站首页</title>
+</head>
+<body>
+<script type="text/javascript">
+//加载直接运行servlet，判断是否预存有Cookie,如有则直接进入网站
+
+//为url加入一个时间戳，让其每次请求都是新的请求
+location.href="pre.do?time="+new Date().getMilliseconds();
+</script>
+</body>
+</html>

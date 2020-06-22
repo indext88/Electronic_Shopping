@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcart.pojo.Mapper.UserDaoMapper">
+    <!--    用户登录-->
+    <select id="login" resultType="User" parameterType="User">
+        select * from users where uname=#{uname} and upass=#{upass}
+    </select>
+    <!--    判断用户名是否存在-->
+    <select id="isExists" resultType="User">
+        select * from users where uname=#{uname}
+    </select>
+    <!--    判断用户是否注册成功-->
+    <insert id="regist" parameterType="User">
+        INSERT into users(uname,upass) values(#{uname},#{upass})
+    </insert>
+</mapper>

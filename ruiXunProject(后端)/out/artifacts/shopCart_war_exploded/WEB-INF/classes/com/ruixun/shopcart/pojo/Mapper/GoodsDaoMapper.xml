@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcart.pojo.Mapper.GoodsDaoMapper">
+   <!-- 查询所有商品以及类型-->
+    <select id="getAllGoods" resultType="com.ruixun.shopcart.pojo.GoodsView">
+        SELECT * from goods_view
+    </select>
+<!--    根据商品id以及购买数量进行更新商品库存-->
+    <update id="modifyGoodsCount" parameterType="com.ruixun.shopcart.pojo.GoodsView">
+        UPDATE goods set count=count-#{count}  where id=#{id}
+    </update>
+</mapper>

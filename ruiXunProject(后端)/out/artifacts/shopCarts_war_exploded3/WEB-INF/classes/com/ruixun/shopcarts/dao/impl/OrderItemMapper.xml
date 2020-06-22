@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcarts.dao.OrderItemDao">
+
+    <!--添加一条订单明细-->
+    <insert id="save" parameterType="OrderItem">
+        INSERT into orderitem
+        values(#{itemid},#{count},#{subtotal},#{pid},#{oid})
+    </insert>
+</mapper>

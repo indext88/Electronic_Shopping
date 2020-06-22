@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcarts.dao.OrderDao">
+    <sql id="allCols">
+        oid,ordertime,total,
+        state,address,name,
+        telephone,uid
+    </sql>
+
+    <!--生成订单-->
+    <insert id="save" parameterType="Order">
+        INSERT into orders
+        values(#{oid},#{ordertime},#{total},#{state},#{address},#{name},#{telephone},#{uid});
+    </insert>
+
+    <!--查询用户的订单总数-->
+    <select id="getTotalCountByUid" parameterType="string" resultType="integer">
+        SELECT count(oid) from orders where uid=#{uid}
+    </select>
+
+
+    <!--分页查询用户订单-->
+    <resultMap id="myOrderRm" type="Order">
+        <id property="oid" column="oid" />
+        <result property="total" column="total" />
+        <result property="ordertime" column="ordertime" />
+        <result property="state" column="state" />
+        <!--映射订单明细集合(对多)-->
+        <collection property="orderItemList" ofType="OrderItem">
+            <id property="itemid" column="itemid" />
+            <result property="count" column="count" />
+            <result property="subtotal" column="subtotal" />
+            <!--映射商品对象信息(对一)-->
+            <association property="product" javaType="Product">
+                <id property="pid" column="pid" />
+                <result property="pimage" column="pimage" />
+                <result property="pname" column="pname" />
+                <result property="shop_price" column="shop_price" />
+            </association>
+        </collection>
+    </resultMap>
+
+
+    <select id="findListByUid" resultMap="myOrderRm" parameterType="object">
+        SELECT o.oid,o.total,o.ordertime,
+        p.pimage,p.pname,p.shop_price,
+        oi.count,oi.subtotal
+        FROM
+        (SELECT * FROM orders WHERE uid=#{uid} LIMIT #{beginRows},#{pageSize}) o
+        INNER JOIN orderitem oi ON o.oid=oi.oid
+        INNER JOIN product p ON oi.pid=p.pid
+        ORDER BY o.ordertime DESC
+    </select>
+
+<!--    根据订单号查询订单-->
+    <select id="findListByOid" resultMap="myOrderRm" parameterType="object">
+        SELECT o.oid,o.total,o.ordertime,o.state,
+        p.pimage,p.pname,p.shop_price,
+        oi.count,oi.subtotal
+        FROM
+        (SELECT * FROM orders WHERE uid=#{uid} and oid=#{oid}) o
+        INNER JOIN orderitem oi ON o.oid=oi.oid
+        INNER JOIN product p ON oi.pid=p.pid
+        ORDER BY o.ordertime DESC
+    </select>
+</mapper>

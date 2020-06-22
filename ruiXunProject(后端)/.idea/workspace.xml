@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shopCarts:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73e3b864-c824-4bed-a6fe-242b08a743b0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdbs@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdbs@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdbs@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shopdbs: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopdbs@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shopdbs: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopCarts/web/info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Msg</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/servlet/front/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/CartItem.java" />
+        <option value="$PROJECT_DIR$/shopCarts/web/product_list.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/servlet/front/CartServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/util/CacheUtil.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/lister/MyServletListener.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/OrderItemDAo.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/OrderItemDao.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/OrderItemMapper.xml" />
+        <option value="$PROJECT_DIR$/shopCarts/resources/Mybatis.xml" />
+        <option value="$PROJECT_DIR$/shopCarts/web/order_info.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/include/header.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/order_list.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/admin/top.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/admin/left.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/admin/user/list.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/admin/product/pushDown_list.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/admin/product/add.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/web/admin/product/list.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/CategoryServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/Page.java" />
+        <option value="$PROJECT_DIR$/shopCarts/web/login.jsp" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/CheckImgServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/filters/AutoLoginFilter.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/filters/CheckLoginFilter.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/CartServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/OrderItem.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/OrderInfo.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/User.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/util/MybatisUtil.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/admin/AdminProductServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/UserServlet.java" />
+        <option value="$PROJECT_DIR$/shopCarts/web/WEB-INF/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\mavenobjects" />
+        <option name="mavenHome" value="E:/mavenobjects" />
+        <option name="userSettingsFile" value="E:\jee-oxygen\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="495" />
+    <option name="y" value="155" />
+    <option name="width" value="1260" />
+    <option name="height" value="725" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopcarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopcarts" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopcarts" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopcarts" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopcarts" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruiXunProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruiXunProject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopCarts" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ruixun.shopcart.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\web\WEB-INF\lib" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\src\com\ruixun\shopcarts\util" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\resources" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\src\com\ruixun\shopcarts\Util" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ruixun.shopcarts.util" />
+      <recent name="com.ruixun.shopcarts.servlet.front" />
+      <recent name="com.ruixun.shopcarts.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\web" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts\src\com\ruixun\shopcarts\web\servlet" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCarts" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\resources" />
+      <recent name="E:\IDEA_Projects\ruiXunProject\shopCart\src\com\ruixun\shopcart\pojo\Mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat9.0">
+    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ruixun.shopcarts.util.MailUtils" />
+      <module name="shopCarts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruixun.shopcarts.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="shopCart" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="shopCart" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shopCarts:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ruiXunProject_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59863" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shopCarts:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MailUtils" />
+      <item itemvalue="Tomcat Server.tomcat9.0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MailUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73e3b864-c824-4bed-a6fe-242b08a743b0" name="Default Changelist" comment="" />
+      <created>1585997402350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585997402350</updated>
+      <workItem from="1585997404952" duration="17946000" />
+      <workItem from="1586221413187" duration="694000" />
+      <workItem from="1586239901120" duration="71000" />
+      <workItem from="1586241004134" duration="9129000" />
+      <workItem from="1586308827460" duration="4185000" />
+      <workItem from="1586314066331" duration="5741000" />
+      <workItem from="1586481960810" duration="25490000" />
+      <workItem from="1586568304497" duration="2445000" />
+      <workItem from="1586756995209" duration="1443000" />
+      <workItem from="1587095227145" duration="24000" />
+      <workItem from="1587956710759" duration="11915000" />
+      <workItem from="1588044142075" duration="1958000" />
+      <workItem from="1588129722658" duration="10484000" />
+      <workItem from="1588146803490" duration="5799000" />
+      <workItem from="1588164090806" duration="56000" />
+      <workItem from="1588164626898" duration="45000" />
+      <workItem from="1588218789713" duration="441000" />
+      <workItem from="1588728060191" duration="2000" />
+      <workItem from="1588728173981" duration="585000" />
+      <workItem from="1588728834941" duration="3717000" />
+      <workItem from="1588736761195" duration="3437000" />
+      <workItem from="1588825968561" duration="396000" />
+      <workItem from="1588831302579" duration="9372000" />
+      <workItem from="1588907035860" duration="14241000" />
+      <workItem from="1588993802226" duration="13034000" />
+      <workItem from="1589166876263" duration="16901000" />
+      <workItem from="1589198165782" duration="1336000" />
+      <workItem from="1589199532424" duration="3875000" />
+      <workItem from="1589257274529" duration="268000" />
+      <workItem from="1589261667770" duration="4428000" />
+      <workItem from="1589333163311" duration="5771000" />
+      <workItem from="1589370615480" duration="3549000" />
+      <workItem from="1589419407257" duration="7681000" />
+      <workItem from="1589448634759" duration="3000" />
+      <workItem from="1589457445784" duration="809000" />
+      <workItem from="1589458574979" duration="4204000" />
+      <workItem from="1589503850647" duration="16289000" />
+      <workItem from="1589543301308" duration="2867000" />
+      <workItem from="1589602181232" duration="7441000" />
+      <workItem from="1589693311621" duration="1972000" />
+      <workItem from="1589776740401" duration="8771000" />
+      <workItem from="1589806490085" duration="3124000" />
+      <workItem from="1589850016221" duration="15132000" />
+      <workItem from="1589884824110" duration="7043000" />
+      <workItem from="1589934881520" duration="7840000" />
+      <workItem from="1589957923625" duration="5526000" />
+      <workItem from="1589971085245" duration="9381000" />
+      <workItem from="1590021748531" duration="12934000" />
+      <workItem from="1590127841100" duration="168000" />
+      <workItem from="1590390837706" duration="754000" />
+      <workItem from="1590394017303" duration="3708000" />
+      <workItem from="1590471266231" duration="613000" />
+      <workItem from="1592461723004" duration="103000" />
+      <workItem from="1592478698340" duration="1656000" />
+      <workItem from="1592569350830" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserTest_TestProduct - 2020.05.20 at 15h 28m 19s.xml">
+      <configuration name="UserTest.TestProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestProduct - 2020.05.20 at 15h 28m 43s.xml">
+      <configuration name="UserTest.TestProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestProduct - 2020.05.20 at 15h 29m 06s.xml">
+      <configuration name="UserTest.TestProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestProduct - 2020.05.20 at 15h 29m 33s.xml">
+      <configuration name="UserTest.TestProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestProduct - 2020.05.20 at 15h 31m 04s.xml">
+      <configuration name="UserTest.TestProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestDate - 2020.05.21 at 14h 43m 16s.xml">
+      <configuration name="UserTest.TestDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestDate - 2020.05.21 at 14h 45m 07s.xml">
+      <configuration name="UserTest.TestDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestDate - 2020.05.21 at 14h 46m 03s.xml">
+      <configuration name="UserTest.TestDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_TestDate - 2020.05.21 at 14h 46m 51s.xml">
+      <configuration name="UserTest.TestDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_shopCarts_(2) - 2020.06.18 at 19h 20m 19s.xml">
+      <configuration name="All in shopCarts (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="296925000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23592493" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5013405" side_tool="true" weight="0.84299856" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.13154173" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49932975" weight="0.32956153" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49932975" weight="0.8132956" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49865952" weight="0.9575672" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.6633663" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32841823" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/order_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/product_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/filters/AutoLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/filters/CheckLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="127" column="27" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/OrderInfo.java" />
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="40" column="98" selection-start-line="40" selection-start-column="98" selection-end-line="40" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/OrderItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jee-oxygen/apache-tomcat-9.0.10-windows-x64/apache-tomcat-9.0.10/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/shopCarts/web/WEB-INF/lib/commons-beanutils-1.8.3.jar!/org/apache/commons/beanutils/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1544">
+          <caret line="112" column="36" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/util/MybatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/products/1/556d64fcNf28f90d0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/shopCarts_war_exploded3/products/1/733060c1926d4c0f9d20f0f7f1382be4b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/shopCarts_war_exploded3/products/1/0326600fb67a4094b1326e5f298584c7e.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/shopCarts_war_exploded3/products/1/556d64fcNf28f90d0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/shopCarts_war_exploded3/products/1/34d911c4c1dd438f81eb007ac0b858f2b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/OrderItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="181" column="46" lean-forward="true" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/CategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="44" column="63" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="18" />
+          <folding>
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="249" column="24" lean-forward="true" selection-start-line="246" selection-start-column="12" selection-end-line="249" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/admin/AdminProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/web/servlet/front/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="79" column="8" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/WEB-INF/login.jsp" />
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/src/com/ruixun/shopcarts/dao/impl/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopCarts/web/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shopCarts:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ruiXunProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>fastjson-1.2.54</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

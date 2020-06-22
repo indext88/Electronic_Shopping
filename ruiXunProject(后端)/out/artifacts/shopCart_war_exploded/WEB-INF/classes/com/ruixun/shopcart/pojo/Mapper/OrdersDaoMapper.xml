@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcart.pojo.Mapper.OrdersDaoMapper">
+    <!--    下单-->
+    <insert id="addOrder" parameterType="orders">
+        INSERT into orders(uid,order_date) values(#{userId},NOW())
+    </insert>
+
+    <!--利用印射封装修改-->
+    <parameterMap id="addOrder" type="map">
+        <parameter property="order_id" javaType="Integer"/>
+        <parameter property="goods_id" javaType="Integer"/>
+        <parameter property="buyCount" javaType="Integer"/>
+    </parameterMap>
+
+    <!--    用户下单后》产生的订单明细表-->
+    <insert id="addOrderDetails" parameterMap="addOrder">
+        INSERT into order_details(order_id,goods_id,buyCount) values(#{order_id},#{goods_id},#{buyCount})
+    </insert>
+
+    <!--    查看用户的所有订单-->
+    <select id="getOrdersByUserId" parameterType="integer" resultType="Orders">
+        SELECT * from orders where uid=#{userId} order by order_date Desc
+    </select>
+
+    <!--    查看订单号下的订单明细以及状态，调用的是OrderView视图数据-->
+    <select id="getOrdersViewByOid" resultType="OrdersView">
+        SELECT * from orders_view where 订单号=#{order_id}
+    </select>
+
+    <!--    如果添加订单成功，则显示最新订单-->
+    <select id="getMaxId" resultType="integer">
+        SELECT max(id) from orders
+    </select>
+</mapper>

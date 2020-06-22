@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http//mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace创建命名空间 -->
+<mapper namespace="com.ruixun.shopcarts.dao.ProductDao">
+    <sql id="allCols">
+        pid,pname,market_price,
+        shop_price,pimage,pdate,
+        is_hot,pdesc,pflag,cid
+    </sql>
+
+    <sql id="partCols">
+        pid,pname
+    </sql>
+
+    <!--查询热门商品的所有信息-->
+    <select id="findHotProductList" resultType="Product">
+        SELECT
+        <include refid="allCols"/>
+        from product where is_hot=1 and existence=1
+        order by pdate desc limit 0,10
+    </select>
+
+    <!--分页查询某类商品信息-->
+    <select id="findPageByCid" resultType="Product">
+        SELECT
+        <include refid="allCols"/>
+        from product where cid=#{cid} and existence=1
+        order by pdate desc
+        limit #{beginRowIndex},#{pageSize}
+    </select>
+
+    <!--获取商品的数量-->
+    <select id="getTotalCount" parameterType="object" resultType="int">
+        SELECT count(pid) from product
+        where 1=1 and existence=1
+        <if test="cid!=null">
+            and cid=#{cid}
+        </if>
+        <if test="pflag!=null">
+            and pflag=#{pflag}
+        </if>
+    </select>
+
+
+    <!--根据商品id查询商品详情-->
+    <select id="findById" resultType="Product" parameterType="String">
+        SELECT
+        <include refid="allCols"/>
+        from product where pid=#{pid}
+    </select>
+
+    <!--分页查询所有商品信-->
+    <select id="findPage" parameterType="object" resultType="Product">
+        SELECT
+        <include refid="allCols"/>
+        from product where existence=1
+        order by pdate desc
+        limit #{beginRowIndex},#{pageSize}
+    </select>
+
+    <!--修改商品的在售状态-->
+    <update id="updatePFlag" parameterType="object">
+        UPDATE product
+        set pflag=#{pflag}
+        where pid=#{pid}
+    </update>
+
+    <!--添加商品-->
+    <insert id="save" parameterType="Product">
+        INSERT into product(pid,pname,shop_price,pimage,
+        pdate,is_hot,pdesc,pflag,cid,existence
+        )
+        value(
+        #{pid},#{pname},
+        #{shop_price},
+        #{pimage},
+        #{pdate},
+        #{is_hot},#{pdesc},#{pflag},#{cid},1
+        )
+    </insert>
+
+    <!--修改商品-->
+    <update id="updateProduct" parameterType="Product">
+        UPDATE product
+        set pname=#{pname},shop_price=#{shop_price},
+        is_hot=#{is_hot},pdesc=#{pdesc},pflag=#{pflag},
+        cid=#{cid},pimage=#{pimage},pdate=#{pdate}
+        where pid=#{pid}
+    </update>
+
+
+    <!--修改商品图片-->
+    <update id="updateProductImg" parameterType="Product">
+        UPDATE product
+        set pimage=#{pimage}
+        where pid=#{pid}
+    </update>
+
+    <!--修改商品是否删除-->
+    <update id="delProducts">
+        UPDATE product
+        set existence=0
+        where pid=#{pid}
+    </update>
+
+</mapper>

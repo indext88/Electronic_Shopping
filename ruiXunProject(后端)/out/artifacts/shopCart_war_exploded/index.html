@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小熊超市-首页</title>
+		<script>
+			function dealSubmit(op){
+				document.forms[0].action="user.do?op="+op;
+				document.forms[0].submit();
+			}
+			
+		</script>
+	</head>
+	
+	<body>
+		<h2 align="center">欢迎光临</h2>
+		<div align="center">
+			<form action=".do" method="post">
+				<table>
+					<tr>
+						<td>用户名</td>
+						<td><input type="text" name="uname" value="菲菲" /></td>
+					</tr>
+					<tr>
+						<td>密码</td>
+						<td><input type="password" name="upass"/></td>
+					</tr>
+					<tr>
+					<td style="text-align: right;"><input type="checkbox" name="chkRemember" value="yes"> </td>
+					<td>记住我</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+						<input type="button" value="登录" onclick="dealSubmit('doLogin');"/>&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="button" value="注册" onclick="dealSubmit('doRegist');"/>&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="button" value="取消" onclick="window.close();"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+			
+		</div>
+	</body>
+</html>
